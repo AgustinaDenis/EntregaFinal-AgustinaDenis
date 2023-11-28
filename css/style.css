@@ -1,85 +1,21 @@
-
-
-.menupetshop{
-    width: auto;
-    background-color:#cdeac0;
-    font-family: 'Lilita One', sans-serif;
-    font-size: larger;  
+.menupetshop {
+  width: auto;
+  background-color: #cdeac0;
+}
+.menupetshop a {
+  font-family: "Lilita One", sans-serif;
+  font-size: larger;
 }
 
-
-
-.carousel-item{
-    max-height: 350px ;
+.carousel-item {
+  max-height: 527px;
 }
 
-.textitos{
-     font-family: 'livvic';
-     color: black;
-     font-size: larger;
+.tiendaPerros a {
+  text-decoration: none;
+  color: white;
+  background-color: #FFAC81;
+  border-color: #FFAC81;
 }
 
-.promosMes{ 
-    font-family:'Lilita One', sans-serif;
-    font-size: larger;
-    color: black;
-}
-
-.productosDestacados{
-    font-family:'Lilita One', sans-serif;
-    font-size: larger;
-    color: black;
-}
-
-.footerPet{
-    width: auto;
-    background-color:#cdeac0;
-    font-family: 'Lilita One', sans-serif;
-    font-size: larger;
-}
-
-.iconosFooter{
-    width: auto;
-    text-align: left;
-    
-}
-
-
-.tiendaPerros{
-    padding: 30px 0;
-    
-
-}
-
-
-
-.tituloContacto{
-    font-family:'Lilita One', sans-serif;
-    font-size: larger;
-    color: black;
-}
-
-.textitosContacto{
-     font-family: 'livvic';
-     color: black;
-     font-size: larger;
-     
-}
-
-.map-responsive{
-    overflow: hidden;
-    padding-bottom: 500px;
-    position: relative;
-    height: 0;
-}
-.map-responsive iframe{
-   left: 0;
-   top: 0;
-   height: 100%;
-   width: 100%;
-   position: absolute; 
-}
-
-.formularioContacto{
- display: inline-block;
-}
+/*# sourceMappingURL=style.css.map */
