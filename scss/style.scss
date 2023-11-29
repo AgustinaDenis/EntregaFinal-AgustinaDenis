@@ -10,20 +10,109 @@
         font-family: 'Lilita One', sans-serif; 
         font-size: larger; 
     }  
+
+    h1{
+        font-family: 'Lilita One', sans-serif; 
+        font-size: larger; 
+        color: black;
+    }
     
 }
 
 .carousel-item{
     max-height: 527px ;
+   
+}
+
+
+.textitos{
+   
+    .miniTitulos{
+        font-family: 'livvic';
+        color: black;
+        font-size: larger;
+    }
 }
 
 
 
 
+.tiendaInicio{
+
+    .promosMes{
+        h2{
+            font-family:'Lilita One', sans-serif;
+            color: black;
+            
+        }
+        
+    }
+
+    .productosDestacados{
+    
+        h2{
+            font-family:'Lilita One', sans-serif;
+            color: black; 
+        }
+    }
+
+    .tiendaPromos{
+        a{
+            text-decoration: none;
+            color:white;
+            background-color:#FEC3A6 ;
+            border-color: #FEC3A6;
+           } 
+    }
+    
+    .tiendaDestacados {
+        
+        a{
+            text-decoration: none;
+            color:white;
+            background-color:#FEC3A6 ;
+            border-color: #FEC3A6;
+        }
+      
+     }
+
+     p{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+       }
+
+    h5{
+        font-family: 'livvic';
+        color:#e28657;
+        font-size: larger;
+       }
+
+}
+
+
+.footerPet{
+    width: auto;
+    background-color:#cdeac0;
+
+    .textosFooter{
+        font-family: 'Lilita One', sans-serif;
+        font-size: larger;
+    }
+
+    .iconosFooter{
+        width: auto;
+        text-align: left;
+    }
+}
 
 
 
-
+.tituloPerros{
+    h1{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+    }
+}
 
 
 .tiendaPerros {
@@ -31,8 +120,154 @@
    a{
     text-decoration: none;
     color:white;
-    background-color: #FFAC81;
-    border-color: #FFAC81;
+    background-color:#FEC3A6 ;
+    border-color: #FEC3A6;
    } 
+
+   h5{
+    font-family:'Lilita One', sans-serif;
+    color: black;
+   }
+
+   p{
+    font-family: 'livvic';
+    color:#e28657;
+    font-size: larger;
+   }
  
 }
+
+
+
+.tituloGatos{
+    h1{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+    }
+}
+
+
+.tiendaGatos{
+    a{
+        text-decoration: none;
+        color:white;
+        background-color:#FEC3A6 ;
+        border-color: #FEC3A6;
+       } 
+    
+       h5{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+       }
+    
+       p{
+        font-family: 'livvic';
+        color:#e28657;
+        font-size: larger;
+       }
+}
+
+
+
+.tituloAccesorios{
+    h1{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+    }
+}
+
+.tiendaAccesorios{
+    a{
+        text-decoration: none;
+        color:white;
+        background-color:#FEC3A6 ;
+        border-color: #FEC3A6;
+       } 
+    
+       h5{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+       }
+    
+       p{
+        font-family: 'livvic';
+        color:#e28657;
+        font-size: larger;
+       }
+}
+
+
+
+.tituloContacto{
+    h1{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+    }
+}
+
+.textitosContacto{
+    font-family: 'livvic';
+    color: black;
+    font-size: larger;
+
+    i{
+        width: auto;
+        text-align: left;
+    }
+
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 500px;
+    position: relative;
+    height: 0;
+    
+    iframe{
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute; 
+     }
+}
+
+.formularioContacto{
+    display: inline-block;
+     h2{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+     }
+
+     h5{
+        font-family:'Lilita One', sans-serif;
+        color: black;
+        font-size: larger;
+     }
+
+     input{
+        font-family: 'livvic';
+        color: black;
+        border-color:#FFAC81;
+     }
+
+     textarea{
+        border-color:#FFAC81;
+     }
+
+     label{
+        font-family:'Lilita One', sans-serif;
+        color:#8da980; 
+     }
+
+     button{
+        text-decoration: none;
+        color:white;
+        background-color:#FEC3A6 ;
+        border-color: #FEC3A6;
+     }
+}
+
+
+
+

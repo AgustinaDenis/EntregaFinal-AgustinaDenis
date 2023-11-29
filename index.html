@@ -3,15 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link icon-->
     <link rel="shortcut icon" href="./img/bxs-cat.svg">
+    <!--Link Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Livvic:ital,wght@1,500&display=swap" rel="stylesheet">
+    <!--Link BoxiIcons-->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Link Animaciones-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--Link bootstrap.css-->
     <link rel="stylesheet" href="css/bootstrap.css">
+    <!--Link style.css-->
     <link rel="stylesheet" href="css/style.css">
-
+    <!--Titulo-->
     <title>LittleChaos Petshop</title>
 </head>
 
@@ -26,13 +33,13 @@
 
           <nav class="navbar navbar-expand-sm">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">LittleChaos Petshop</a>
+              <h1 class="navbar-brand TituloInicio animate__animated animate__heartBeat" href="#">LittleChaos Petshop</h1>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
 
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto animate__animated animate__heartBeat">
                   <li class="nav-item">
                     <a class="nav-link active lole" aria-current="page" href="index.html">Inicio</a>
                   </li>
@@ -86,9 +93,9 @@
 
           <div class="container-fluid py-5 text-center textitos">
             <div class="row">
-              <div class="col-sm-4">Envios sin cargo</div>
-              <div class="col-sm-4">Descuentos en efectivo</div>
-              <div class="col-sm-4">Promociones bancarias</div>
+              <div class="col-sm-4 miniTitulos"><h5>Envios sin cargo</h5></div>
+              <div class="col-sm-4 miniTitulos"><h5>Descuentos en efectivo</h5></div>
+              <div class="col-sm-4 miniTitulos"><h5>Promociones bancarias</h5></div>
             </div>
 
             <!--Icons Inicio-->
@@ -101,52 +108,65 @@
               </div>
 
 
-            <!--promos del mes-->
+            <!--Tienda del inicio-->
 
+     <div class="tiendaInicio">
 
-            <div class="container mt-5 promosMes">
+      <!--promos del mes-->
+
+            <div class="container mt-5 promosMes animate__animated animate__heartBeat">
               <h2>Promos del mes</h2>
             </div>
 
           <div class="container mt-5">
-             <div class="row">
+             <div class="row tiendaPromos">
 
-              <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/comida gato 1.png" class="card-img-top" alt="...">
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                <div class="card cardPromos" style="">
+                  <img src="img/comida gato 1.jpg" class="d-block w-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">$2500kg</h5>
-                    <p class="card-text">Comida para gatos castrados CATPRO.</p>
+                    <p class="card-text">Alimento para gato adulto.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/comida perro 2.jpeg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">$3000kg</h5>
-                    <p class="card-text">Comida para perro PURINA pro plan.</p>
-                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                  <img src="img/comida gato 3.jpeg" class="card-img-top" alt="...">
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                <div class="card cardPromos" style="">
+                  <img src="img/comida para perro 6.jpg" class="d-block w-100" alt="...">
                   <div class="card-body">
                     <h5 class="card-title">$1000</h5>
-                    <p class="card-text">Sobre de comida para gato, sabor pollo.</p>
+                    <p class="card-text">Alimento para perro adulto.</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                <div class="card cardPromos" style="">
+                  <img src="img/comida gato 3.jpg" class="d-block w-100" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">$1000</h5>
+                    <p class="card-text">Alimento para gatos Kitten.</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                <div class="card cardPromos" style="">
+                  <img src="img/comida perro 10.jpg" class="d-block w-100" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">$1000</h5>
+                    <p class="card-text">Alimento para perro, Eukanuba.</p>
                     <a href="#" class="btn btn-primary">Agregar al carrito</a>
                   </div>
                 </div>
               </div>
               
 
-             </div>
-          </div>
+          
 
 
               <!--productos destacados-->
@@ -155,26 +175,48 @@
                 <h2>Productos destacados</h2>
               </div>
 
-              <div class="container mt-5">
+              <div class="container mt-5 tiendaDestacados">
                 <div class="row">
 
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/comida gato 1.png" class="card-img-top" alt="...">
+                  <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="card" style="">
+                      <img src="img/comida gato 5.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">$2500kg</h5>
-                        <p class="card-text">Comida para gatos castrados CATPRO.</p>
+                        <p class="card-text">Alimento para gatos.</p>
                         <a href="#" class="btn btn-primary">Agregar al carrito</a>
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <img src="img/comida perro 3.jpg" class="card-img-top" alt="...">
+                  <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="card" style="">
+                      <img src="img/comida perro 5.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
                         <h5 class="card-title">$2500kg</h5>
-                        <p class="card-text">Comida para perros 1 a 5 meses ROYAL CANIN.</p>
+                        <p class="card-text">Alimento para perro adulto.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="card" style="">
+                      <img src="img/comida perro 11.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">$2500kg</h5>
+                        <p class="card-text">Alimento para perros, Complete.</p>
+                        <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-6 col-sm-6 col-md-3 col-lg-3 mt-5">
+                    <div class="card" style="">
+                      <img src="img/comida perro 4.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">$2500kg</h5>
+                        <p class="card-text">Alimento para cachorros.</p>
                         <a href="#" class="btn btn-primary">Agregar al carrito</a>
                       </div>
                     </div>
@@ -192,6 +234,8 @@
 
           </div>
 
+     </div>
+
 
         </main>
 
@@ -200,10 +244,10 @@
         <footer class="footerPet py-3">
 
           <div class="container-fluid">
-            <div class="row">
-              <div class="col sm-4 "><h2>LittleChaos Petshop</h2></div>
-              <div class="col sm-4 text-center">Medios de pago</div>
-              <div class="col sm-4">¡Encontranos en nuestras redes sociales!</div>
+            <div class="row textosFooter">
+              <div class="col sm-4 animate__animated animate__heartBeat "><h2>LittleChaos Petshop</h2></div>
+              <div class="col sm-4 text-center animate__animated animate__fadeIn">Medios de pago</div>
+              <div class="col sm-4 animate__animated animate__fadeIn">¡Encontranos en nuestras redes sociales!</div>
             </div>
           </div>
 
@@ -214,7 +258,7 @@
               <div class="col sm-4"></div>
               <div class="col sm-4 text-center"><i class='bx bx-money-withdraw'></i>
                 <i class='bx bxs-bank' ></i> <i class='bx bxs-credit-card-alt' ></i> <i class='bx bxs-credit-card' ></i> </div>
-              <div class="col sm-4"><i class='bx bxl-facebook-circle' ></i> littlechaospetshop <i class='bx bxl-instagram' ></i> littlechaos_petshop </div>
+              <div class="col sm-4 textosIconos"><i class='bx bxl-facebook-circle'></i> littlechaospetshop <i class='bx bxl-instagram' ></i> littlechaos_petshop </div>
             </div>
           </div>
           
