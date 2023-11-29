@@ -1,48 +1,60 @@
+@import "./partials/variables";
 
 
-
+/*menu*/
 .menupetshop{
-    width: auto;
+    width: $ancho;
     background-color:#cdeac0;
     
     
     a{
-        font-family: 'Lilita One', sans-serif; 
-        font-size: larger; 
+        font-family: $fuente; 
+        font-size: larger;
+        color: $color; 
     }  
 
-    h1{
-        font-family: 'Lilita One', sans-serif; 
+    span{
+        font-family: $fuente; 
         font-size: larger; 
-        color: black;
+        color: $color;
     }
     
 }
 
+/*Pagina Inicio*/
+
+/*carousel*/
 .carousel-item{
     max-height: 527px ;
    
 }
 
+/*titulo*/
+.tituloPrincipal{
+    
+    h1{
+        font-family:$fuente;
+        color: $color;
+    }
+}
 
+/*mini textitos*/
 .textitos{
    
     .miniTitulos{
         font-family: 'livvic';
-        color: black;
+        color: $color;
         font-size: larger;
     }
 }
 
-
-
-
+/*tienda inicio*/
 .tiendaInicio{
 
     .promosMes{
         h2{
-            font-family:'Lilita One', sans-serif;
-            color: black;
+            font-family:$fuente;
+            color: $color;
             
         }
         
@@ -51,8 +63,8 @@
     .productosDestacados{
     
         h2{
-            font-family:'Lilita One', sans-serif;
-            color: black; 
+            font-family:$fuente;
+            color: $color; 
         }
     }
 
@@ -77,8 +89,8 @@
      }
 
      p{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family: $fuente;
+        color: $color;
        }
 
     h5{
@@ -89,32 +101,32 @@
 
 }
 
-
+/*footer*/
 .footerPet{
-    width: auto;
+    width: $ancho;
     background-color:#cdeac0;
 
     .textosFooter{
-        font-family: 'Lilita One', sans-serif;
+        font-family: $fuente;
         font-size: larger;
     }
 
     .iconosFooter{
-        width: auto;
+        width: $ancho;
         text-align: left;
     }
 }
 
-
+/*pagina perros*/
 
 .tituloPerros{
     h1{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family: $fuente;
+        color: $color;
     }
 }
 
-
+/*tienda perros*/
 .tiendaPerros {
     
    a{
@@ -125,8 +137,8 @@
    } 
 
    h5{
-    font-family:'Lilita One', sans-serif;
-    color: black;
+    font-family:$fuente;
+    color: $color;
    }
 
    p{
@@ -137,16 +149,16 @@
  
 }
 
-
+/*pagina gatos*/
 
 .tituloGatos{
     h1{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family: $fuente;
+        color: $color;
     }
 }
 
-
+/*tienda gatos*/
 .tiendaGatos{
     a{
         text-decoration: none;
@@ -156,8 +168,8 @@
        } 
     
        h5{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family:$fuente;
+        color: $color;
        }
     
        p{
@@ -167,15 +179,16 @@
        }
 }
 
-
+/*pagina accesorios*/
 
 .tituloAccesorios{
     h1{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family:$fuente;
+        color: $color;
     }
 }
 
+/*tienda accesorios*/
 .tiendaAccesorios{
     a{
         text-decoration: none;
@@ -185,8 +198,8 @@
        } 
     
        h5{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family: $fuente;
+        color: $color;
        }
     
        p{
@@ -196,22 +209,22 @@
        }
 }
 
-
+/*pagina contacto*/
 
 .tituloContacto{
     h1{
         font-family:'Lilita One', sans-serif;
-        color: black;
+        color: $color;
     }
 }
 
 .textitosContacto{
     font-family: 'livvic';
-    color: black;
+    color: $color;
     font-size: larger;
 
     i{
-        width: auto;
+        width: $ancho;
         text-align: left;
     }
 
@@ -227,7 +240,7 @@
         left: 0;
         top: 0;
         height: 100%;
-        width: 100%;
+        width: $ancho;
         position: absolute; 
      }
 }
@@ -235,19 +248,19 @@
 .formularioContacto{
     display: inline-block;
      h2{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family: $fuente;
+        color: $color;
      }
 
      h5{
-        font-family:'Lilita One', sans-serif;
-        color: black;
+        font-family:$fuente;
+        color: $color;
         font-size: larger;
      }
 
      input{
         font-family: 'livvic';
-        color: black;
+        color: $color;
         border-color:#FFAC81;
      }
 
@@ -256,7 +269,7 @@
      }
 
      label{
-        font-family:'Lilita One', sans-serif;
+        font-family: $fuente;
         color:#8da980; 
      }
 
@@ -265,6 +278,7 @@
         color:white;
         background-color:#FEC3A6 ;
         border-color: #FEC3A6;
+        
      }
 }
 

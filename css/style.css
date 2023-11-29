@@ -1,27 +1,39 @@
+/*menu*/
 .menupetshop {
-  width: auto;
+  width: 100%;
   background-color: #cdeac0;
 }
 .menupetshop a {
   font-family: "Lilita One", sans-serif;
   font-size: larger;
+  color: black;
 }
-.menupetshop h1 {
+.menupetshop span {
   font-family: "Lilita One", sans-serif;
   font-size: larger;
   color: black;
 }
 
+/*Pagina Inicio*/
+/*carousel*/
 .carousel-item {
   max-height: 527px;
 }
 
+/*titulo*/
+.tituloPrincipal h1 {
+  font-family: "Lilita One", sans-serif;
+  color: black;
+}
+
+/*mini textitos*/
 .textitos .miniTitulos {
   font-family: "livvic";
   color: black;
   font-size: larger;
 }
 
+/*tienda inicio*/
 .tiendaInicio .promosMes h2 {
   font-family: "Lilita One", sans-serif;
   color: black;
@@ -52,8 +64,9 @@
   font-size: larger;
 }
 
+/*footer*/
 .footerPet {
-  width: auto;
+  width: 100%;
   background-color: #cdeac0;
 }
 .footerPet .textosFooter {
@@ -61,15 +74,17 @@
   font-size: larger;
 }
 .footerPet .iconosFooter {
-  width: auto;
+  width: 100%;
   text-align: left;
 }
 
+/*pagina perros*/
 .tituloPerros h1 {
   font-family: "Lilita One", sans-serif;
   color: black;
 }
 
+/*tienda perros*/
 .tiendaPerros a {
   text-decoration: none;
   color: white;
@@ -86,11 +101,13 @@
   font-size: larger;
 }
 
+/*pagina gatos*/
 .tituloGatos h1 {
   font-family: "Lilita One", sans-serif;
   color: black;
 }
 
+/*tienda gatos*/
 .tiendaGatos a {
   text-decoration: none;
   color: white;
@@ -107,11 +124,13 @@
   font-size: larger;
 }
 
+/*pagina accesorios*/
 .tituloAccesorios h1 {
   font-family: "Lilita One", sans-serif;
   color: black;
 }
 
+/*tienda accesorios*/
 .tiendaAccesorios a {
   text-decoration: none;
   color: white;
@@ -128,6 +147,7 @@
   font-size: larger;
 }
 
+/*pagina contacto*/
 .tituloContacto h1 {
   font-family: "Lilita One", sans-serif;
   color: black;
@@ -139,7 +159,7 @@
   font-size: larger;
 }
 .textitosContacto i {
-  width: auto;
+  width: 100%;
   text-align: left;
 }
 
