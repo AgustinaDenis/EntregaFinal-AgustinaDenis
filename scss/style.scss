@@ -5,19 +5,17 @@
 .menupetshop{
     width: $ancho;
     background-color:#cdeac0;
-     
-    a{
-        font-family: $fuente; 
-        font-size: larger;
-        color: $color; 
-        text-decoration: none;
-    }  
 
     span{
         font-family: $fuente; 
         font-size: larger; 
         color: $color;
     }
+     
+    a{
+       @extend span;
+       text-decoration: none;
+    }     
     
 }
 
@@ -25,16 +23,14 @@
 
 /*carousel*/
 .carousel-item{
-    max-height: 527px ;
-   
+    max-height: 527px ;   
 }
 
 /*titulo*/
 .tituloPrincipal{
     
     h1{
-        font-family:$fuente;
-        color: $color;
+        @include tituloPrincipal ('Lilita One' , black )
     }
 }
 
@@ -42,9 +38,7 @@
 .textitos{
    
     .miniTitulos{
-        font-family: 'livvic';
-        color: $color;
-        font-size: larger;
+       @include textitos ('livvic' , black , larger ) 
     }
 }
 
@@ -53,50 +47,35 @@
 
     .promosMes{
         h2{
-            font-family:$fuente;
-            color: $color;
-            
+          @include promosMes ('Lilita One' , black )    
         }
         
     }
 
     .productosDestacados{
-    
-        h2{
-            font-family:$fuente;
-            color: $color; 
-        }
+        @extend .promosMes
     }
 
     .tiendaPromos{
         a{
-            text-decoration: none;
-            color:white;
-            background-color:#FEC3A6 ;
-            border-color: #FEC3A6;
-           } 
+           @include tiendaPromos (none , white , #FEC3A6 , #FEC3A6 ) 
+        } 
     }
     
     .tiendaDestacados {
         
         a{
-            text-decoration: none;
-            color:white;
-            background-color:#FEC3A6 ;
-            border-color: #FEC3A6;
+          @extend .tiendaPromos
         }
       
      }
 
      p{
-        font-family: $fuente;
-        color: $color;
+        @include pTiendaInicio ('Lilita One' , black )
        }
 
-    h5{
-        font-family: 'livvic';
-        color:#e28657;
-        font-size: larger;
+     h5{
+       @include h5TiendaInicio ('livvic' , #e28657 , larger )
        }
 
 }
@@ -240,6 +219,7 @@
      h2{
         font-family: $fuente;
         color: $color;
+        
      }
 
      h5{
@@ -267,8 +247,7 @@
         text-decoration: none;
         color:white;
         background-color:#FEC3A6 ;
-        border-color: #FEC3A6;
-        
+        border-color: #FEC3A6;   
      }
 }
 

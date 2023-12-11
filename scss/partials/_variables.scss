@@ -8,8 +8,45 @@ $color3:#e28657;
 $color4: #cdeac0;
 $color5: #8da980;
 $fondo: #FEC3A6;
+$fondo2: #cdeac0;
 $borde: #FEC3A6; 
 $textdeco: none;
+
+
+@mixin tituloPrincipal ($fuente , $color ){
+    font-family:$fuente;
+    color: $color;
+}
+
+@mixin textitos ($fuente2 , $color , $tamañofuente ){
+    font-family: $fuente2;
+    color: $color;
+    font-size: $tamañofuente;
+}   
+
+@mixin promosMes ($fuente , $color ){
+    font-family:$fuente;
+    color: $color; 
+}
+
+@mixin tiendaPromos ($texdeco , $color2 , $fondo , $borde ){
+    text-decoration: $textdeco;
+    color: $color2;
+    background-color: $fondo;
+    border-color: $borde;
+}
+
+@mixin pTiendaInicio ($fuente , $color ){
+    font-family: $fuente;
+    color: $color;
+}
+
+@mixin h5TiendaInicio ($fuente2 , $color3 , $tamañofuente ){
+    font-family:$fuente2;
+    color: $color3;
+    font-size: $tamañofuente;
+}
+
 
 @mixin a1 ($textdeco , $color2 , $fondo , $borde ){
     text-decoration: $textdeco;
@@ -27,5 +64,8 @@ $textdeco: none;
     font-family: $fuente2;
     color: $color3;
     font-size: $tamañofuente;
+
 }
+
+
 
