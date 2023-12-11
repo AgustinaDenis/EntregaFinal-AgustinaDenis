@@ -1,3 +1,31 @@
 $fuente:'Lilita One', sans-serif;
+$fuente2:'livvic';
+$tamañofuente: larger; 
 $ancho: 100%;
 $color: black;
+$color2: white;
+$color3:#e28657;
+$color4: #cdeac0;
+$color5: #8da980;
+$fondo: #FEC3A6;
+$borde: #FEC3A6; 
+$textdeco: none;
+
+@mixin a1 ($textdeco , $color2 , $fondo , $borde ){
+    text-decoration: $textdeco;
+    color: $color2;
+    background-color:$fondo;
+    border-color:$borde;
+}
+
+@mixin h5 ($fuente , $color ){
+    font-family: $fuente;
+    color: $color;
+}
+
+@mixin p1 ($fuente2 , $color3 , $tamañofuente ){
+    font-family: $fuente2;
+    color: $color3;
+    font-size: $tamañofuente;
+}
+

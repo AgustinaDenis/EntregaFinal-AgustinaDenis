@@ -5,12 +5,12 @@
 .menupetshop{
     width: $ancho;
     background-color:#cdeac0;
-    
-    
+     
     a{
         font-family: $fuente; 
         font-size: larger;
         color: $color; 
+        text-decoration: none;
     }  
 
     span{
@@ -126,25 +126,23 @@
     }
 }
 
+.imagenPerros{
+    width:$ancho;
+}
+
 /*tienda perros*/
 .tiendaPerros {
     
    a{
-    text-decoration: none;
-    color:white;
-    background-color:#FEC3A6 ;
-    border-color: #FEC3A6;
+    @include a1( none , white ,  #FEC3A6 ,  #FEC3A6  )
    } 
 
    h5{
-    font-family:$fuente;
-    color: $color;
+   @include h5( 'Lilita One' , black )
    }
 
    p{
-    font-family: 'livvic';
-    color:#e28657;
-    font-size: larger;
+   @include p1( 'livvic' , #e28657 , larger )
    }
  
 }
@@ -161,21 +159,15 @@
 /*tienda gatos*/
 .tiendaGatos{
     a{
-        text-decoration: none;
-        color:white;
-        background-color:#FEC3A6 ;
-        border-color: #FEC3A6;
+        @include a1( none , white ,  #FEC3A6 ,  #FEC3A6  )
        } 
     
-       h5{
-        font-family:$fuente;
-        color: $color;
+    h5{
+       @include h5( 'Lilita One' , black )
        }
     
-       p{
-        font-family: 'livvic';
-        color:#e28657;
-        font-size: larger;
+    p{
+       @include p1( 'livvic' , #e28657 , larger )
        }
 }
 
@@ -191,25 +183,23 @@
 /*tienda accesorios*/
 .tiendaAccesorios{
     a{
-        text-decoration: none;
-        color:white;
-        background-color:#FEC3A6 ;
-        border-color: #FEC3A6;
+        @include a1( none , white ,  #FEC3A6 ,  #FEC3A6  )
        } 
     
-       h5{
-        font-family: $fuente;
-        color: $color;
+    h5{
+       @include h5( 'Lilita One' , black )
        }
     
-       p{
-        font-family: 'livvic';
-        color:#e28657;
-        font-size: larger;
+    p{
+       @include p1( 'livvic' , #e28657 , larger )
        }
 }
 
 /*pagina contacto*/
+
+.imagenContacto{
+    width:$ancho;
+}
 
 .tituloContacto{
     h1{
