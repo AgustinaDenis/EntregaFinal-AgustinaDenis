@@ -72,11 +72,6 @@
   color: black;
 }
 
-/*imagen Perros*/
-.imagenPerros {
-  width: 100%;
-}
-
 /*tienda perros*/
 .tiendaPerros a, .tiendaAccesorios a, .tiendaGatos a {
   text-decoration: none;
@@ -109,10 +104,6 @@
 
 /*tienda accesorios*/
 /*pagina contacto*/
-.imagenContacto {
-  width: 100%;
-}
-
 .textitosContacto {
   font-family: "livvic";
   color: black;
@@ -166,6 +157,24 @@
   color: white;
   background-color: #FEC3A6;
   border-color: #FEC3A6;
+}
+
+/*pagina error*/
+.pagError .tituloError, .pagError .subtituloError, .pagError .iconoError {
+  font-family: "Lilita One", sans-serif;
+  font-size: xx-large;
+  text-align: center;
+}
+.pagError .mensajeError {
+  font-family: "livvic";
+  font-size: large;
+  text-align: center;
+}
+.pagError .botonError {
+  background-color: #FFAC81;
+  text-decoration: none;
+  font-family: "Lilita One";
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -105,12 +105,6 @@
     }
 }
 
-/*imagen Perros*/
-
-.imagenPerros{
-    width:$ancho;
-}
-
 /*tienda perros*/
 .tiendaPerros {
     
@@ -162,9 +156,6 @@
 
 /*pagina contacto*/
 
-.imagenContacto{
-    width:$ancho;
-}
 
 .tituloContacto{
     @extend .tituloPerros;
@@ -223,6 +214,35 @@
         background-color:#FEC3A6 ;
         border-color: #FEC3A6;   
      }
+}
+
+
+/*pagina error*/
+
+.pagError{
+    .tituloError{
+        font-family:'Lilita One', sans-serif;
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    .iconoError{
+        @extend .tituloError;
+    }
+
+    .subtituloError{
+       @extend .tituloError; 
+    }
+
+    .mensajeError{
+        font-family:'livvic';
+        font-size: large;
+        text-align: center;
+    }
+
+    .botonError{
+        @include botonError ( #FFAC81 , none , 'Lilita One' , black )     
+    }
 }
 
 

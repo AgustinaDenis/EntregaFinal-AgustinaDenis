@@ -100,5 +100,11 @@ $textdeco: none;
     color: $color5; 
 }
 
+@mixin botonError ( $color6 , $textdeco , $fuente , $color ){
+    background-color: $color6;
+    text-decoration: $textdeco;
+    font-family: $fuente;
+    color: $color;
+}
 
 
