@@ -53,7 +53,7 @@
     }
 
     .productosDestacados{
-        @extend .promosMes
+        @extend .promosMes;
     }
 
     .tiendaPromos{
@@ -65,7 +65,7 @@
     .tiendaDestacados {
         
         a{
-          @extend .tiendaPromos
+          @extend .tiendaPromos;
         }
       
      }
@@ -80,14 +80,15 @@
 
 }
 
-/*footer*/
+ /*footer*/
+ 
 .footerPet{
     width: $ancho;
-    background-color:#cdeac0;
+    background-color: $color4;
 
     .textosFooter{
         font-family: $fuente;
-        font-size: larger;
+        font-size: $tamañofuente;
     }
 
     .iconosFooter{
@@ -100,10 +101,11 @@
 
 .tituloPerros{
     h1{
-        font-family: $fuente;
-        color: $color;
+     @include tituloPerros  ('Lilita One' , black ) 
     }
 }
+
+/*imagen Perros*/
 
 .imagenPerros{
     width:$ancho;
@@ -129,49 +131,33 @@
 /*pagina gatos*/
 
 .tituloGatos{
-    h1{
-        font-family: $fuente;
-        color: $color;
-    }
+    @extend .tituloPerros;
+}
+
+/*imagen Gatos*/
+.imagenGatos{
+    width: $ancho
 }
 
 /*tienda gatos*/
 .tiendaGatos{
-    a{
-        @include a1( none , white ,  #FEC3A6 ,  #FEC3A6  )
-       } 
-    
-    h5{
-       @include h5( 'Lilita One' , black )
-       }
-    
-    p{
-       @include p1( 'livvic' , #e28657 , larger )
-       }
+  @extend .tiendaPerros;
 }
 
 /*pagina accesorios*/
 
 .tituloAccesorios{
-    h1{
-        font-family:$fuente;
-        color: $color;
-    }
+    @extend .tituloPerros;
+}
+
+/*imagen Accesorios*/
+.imagenAccesorios {
+    width: $ancho;
 }
 
 /*tienda accesorios*/
 .tiendaAccesorios{
-    a{
-        @include a1( none , white ,  #FEC3A6 ,  #FEC3A6  )
-       } 
-    
-    h5{
-       @include h5( 'Lilita One' , black )
-       }
-    
-    p{
-       @include p1( 'livvic' , #e28657 , larger )
-       }
+    @extend .tiendaPerros;
 }
 
 /*pagina contacto*/
@@ -181,20 +167,15 @@
 }
 
 .tituloContacto{
-    h1{
-        font-family:'Lilita One', sans-serif;
-        color: $color;
-    }
+    @extend .tituloPerros;
 }
 
 .textitosContacto{
-    font-family: 'livvic';
-    color: $color;
-    font-size: larger;
+    @include textitosContacto( 'livvic' , black , larger );
 
     i{
         width: $ancho;
-        text-align: left;
+        text-align:left;
     }
 
 }
@@ -217,30 +198,23 @@
 .formularioContacto{
     display: inline-block;
      h2{
-        font-family: $fuente;
-        color: $color;
-        
+      @include h2Form ( 'Lilita One' , black )
      }
 
      h5{
-        font-family:$fuente;
-        color: $color;
-        font-size: larger;
+       @include h5Form ( 'Lilita One' , black, larger )
      }
 
      input{
-        font-family: 'livvic';
-        color: $color;
-        border-color:#FFAC81;
+        @include inputForm ( 'livvic' , black ,  #FFAC81 )
      }
 
      textarea{
-        border-color:#FFAC81;
+        border-color:$color6;
      }
 
      label{
-        font-family: $fuente;
-        color:#8da980; 
+        @include label ( 'Lilita One' , #8da980 )
      }
 
      button{

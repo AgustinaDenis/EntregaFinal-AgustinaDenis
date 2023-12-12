@@ -7,6 +7,7 @@ $color2: white;
 $color3:#e28657;
 $color4: #cdeac0;
 $color5: #8da980;
+$color6:#FFAC81;
 $fondo: #FEC3A6;
 $fondo2: #cdeac0;
 $borde: #FEC3A6; 
@@ -47,6 +48,10 @@ $textdeco: none;
     font-size: $tamañofuente;
 }
 
+@mixin tituloPerros ($fuente , $color ){
+    font-family: $fuente;
+    color: $color;
+}
 
 @mixin a1 ($textdeco , $color2 , $fondo , $borde ){
     text-decoration: $textdeco;
@@ -65,6 +70,34 @@ $textdeco: none;
     color: $color3;
     font-size: $tamañofuente;
 
+}
+
+@mixin textitosContacto ($fuente2 , $color , $tamañofuente ){
+    font-family: $fuente2;
+    color: $color;
+    font-size: $tamañofuente;
+}
+
+@mixin h2Form ( $fuente , $color ){
+    font-family: $fuente;
+    color: $color;
+}
+
+@mixin h5Form ( $fuente , $color , $tamañofuente ){
+    font-family:$fuente;
+    color: $color;
+    font-size: $tamañofuente;
+}
+
+@mixin inputForm ( $fuente2 , $color , $color6 ){
+    font-family: $fuente2;
+    color: $color;
+    border-color: $color6;
+}
+
+@mixin label ( $fuente , $color ){
+    font-family: $fuente;
+    color: $color5; 
 }
 
 

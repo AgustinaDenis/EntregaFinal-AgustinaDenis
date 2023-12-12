@@ -67,86 +67,50 @@
 }
 
 /*pagina perros*/
-.tituloPerros h1 {
-  font-family: "Lilita One", sans-serif;
+.tituloPerros h1, .tituloContacto h1, .tituloAccesorios h1, .tituloGatos h1 {
+  font-family: "Lilita One";
   color: black;
 }
 
+/*imagen Perros*/
 .imagenPerros {
   width: 100%;
 }
 
 /*tienda perros*/
-.tiendaPerros a {
+.tiendaPerros a, .tiendaAccesorios a, .tiendaGatos a {
   text-decoration: none;
   color: white;
   background-color: #FEC3A6;
   border-color: #FEC3A6;
 }
-.tiendaPerros h5 {
+.tiendaPerros h5, .tiendaAccesorios h5, .tiendaGatos h5 {
   font-family: "Lilita One";
   color: black;
 }
-.tiendaPerros p {
+.tiendaPerros p, .tiendaAccesorios p, .tiendaGatos p {
   font-family: "livvic";
   color: #e28657;
   font-size: larger;
 }
 
 /*pagina gatos*/
-.tituloGatos h1 {
-  font-family: "Lilita One", sans-serif;
-  color: black;
-}
-
-/*tienda gatos*/
-.tiendaGatos a {
-  text-decoration: none;
-  color: white;
-  background-color: #FEC3A6;
-  border-color: #FEC3A6;
-}
-.tiendaGatos h5 {
-  font-family: "Lilita One";
-  color: black;
-}
-.tiendaGatos p {
-  font-family: "livvic";
-  color: #e28657;
-  font-size: larger;
-}
-
-/*pagina accesorios*/
-.tituloAccesorios h1 {
-  font-family: "Lilita One", sans-serif;
-  color: black;
-}
-
-/*tienda accesorios*/
-.tiendaAccesorios a {
-  text-decoration: none;
-  color: white;
-  background-color: #FEC3A6;
-  border-color: #FEC3A6;
-}
-.tiendaAccesorios h5 {
-  font-family: "Lilita One";
-  color: black;
-}
-.tiendaAccesorios p {
-  font-family: "livvic";
-  color: #e28657;
-  font-size: larger;
-}
-
-/*pagina contacto*/
-.imagenContacto {
+/*imagen Gatos*/
+.imagenGatos {
   width: 100%;
 }
 
-.tituloContacto h1 {
-  font-family: "Lilita One", sans-serif;
-  color: black;
+/*tienda gatos*/
+/*pagina accesorios*/
+/*imagen Accesorios*/
+.imagenAccesorios {
+  width: 100%;
+}
+
+/*tienda accesorios*/
+/*pagina contacto*/
+.imagenContacto {
+  width: 100%;
 }
 
 .textitosContacto {
@@ -177,11 +141,11 @@
   display: inline-block;
 }
 .formularioContacto h2 {
-  font-family: "Lilita One", sans-serif;
+  font-family: "Lilita One";
   color: black;
 }
 .formularioContacto h5 {
-  font-family: "Lilita One", sans-serif;
+  font-family: "Lilita One";
   color: black;
   font-size: larger;
 }
@@ -194,7 +158,7 @@
   border-color: #FFAC81;
 }
 .formularioContacto label {
-  font-family: "Lilita One", sans-serif;
+  font-family: "Lilita One";
   color: #8da980;
 }
 .formularioContacto button {
