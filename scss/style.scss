@@ -99,6 +99,7 @@
 
 /*pagina perros*/
 
+
 .tituloPerros{
     h1{
      @include tituloPerros  ('Lilita One' , black ) 
@@ -123,6 +124,7 @@
 }
 
 /*pagina gatos*/
+
 
 .tituloGatos{
     @extend .tituloPerros;

@@ -14,6 +14,8 @@ $borde: #FEC3A6;
 $textdeco: none;
 
 
+/*mixins*/
+
 @mixin tituloPrincipal ($fuente , $color ){
     font-family:$fuente;
     color: $color;
